@@ -62,32 +62,32 @@ box-shadow: 10px 10px 5px rgb(192, 189, 189);
     }
     header .logo{
         color: var(--black);
-        font-size: 6.5rem;
+        font-size: 4rem;
         font-weight: bolder;
+        display: flex;
+    }
+    .aaa{
+        font-size: 4rem;
+        color: black;
+
+    }
+    .hhh{
+        font-size: 1.5rem;
+        color: black;
+        margin-top: 2rem;
     }
      .logo i{
         color: var(--green);
     }
-    .header .navbar a{
+    .logo i span{
+        font-size: .1rem;
+    }
+    .header .navbar a {
       font-size: 1.7rem;
       border-radius: .5rem;
       padding: .5rem 1.5rem;
       color: var(--light-color);
     }
-.navbar a.active,
-.navbar a:hover{
-    background-color: rgb(255, 106, 0);
-    color: cornsilk;
-    
-}
-.logo
-{
-    text-decoration: none;
-    color: rgb(253, 108, 5);
-}
-.logo i{
-    color: darkorange;
-}
 header .icons i,
 header .icons a{
     cursor: pointer;
@@ -728,6 +728,9 @@ header .icons a{
         .baout-2{
             width: 100%;
         }
+        .hhh{
+            margin-right: .5rem;
+            }
         .footer{
             display: block;
             align-items: center;
