@@ -24,7 +24,7 @@ section:nth-child(even){
 }
 .sub-heading{
     text-align: center;
-    color: darkorange;
+    color: rgb(255, 0, 0);
     font-size: 2rem;
     padding-top: 1rem;
 }
@@ -46,7 +46,7 @@ section:nth-child(even){
  
 }
 .btn:hover{
-    background: darkorange;
+    background: rgb(255, 0, 0);
     letter-spacing: .1rem;
 }
 	.header {
@@ -89,7 +89,7 @@ box-shadow: 10px 10px 5px rgb(192, 189, 189);
       color: var(--light-color);
     }
     .logo i{
-        color: var(--green);
+        color:red;
     }
 header .icons i,
 header .icons a{
@@ -102,19 +102,19 @@ header .icons a{
     color: #fff;
     border-radius: 50%;
     background: #eee;
-    background-color: darkorange;
+    background-color: rgb(255, 0, 0);
 
 }
   
    .icons i:hover
    {
        color: #fff;
-       background-color: darkorange;
+       background-color: rgb(255, 0, 0);
    }
    .icons a:hover
    {
        color: #fff;
-       background-color: darkorange;
+       background-color: rgb(255, 0, 0);
    }
        #menu-bars{
            display: none;
@@ -155,7 +155,7 @@ header .icons a{
         font-size: 3rem;
  }
  #search-form label:hover{
-     color: darkorange;
+     color: rgb(255, 0, 0);
  }
  #search-form #close{
      position: absolute;
@@ -165,7 +165,7 @@ header .icons a{
      font-size: 5rem;
  }
  #search-form #close:hover{
-     color: darkorange;
+     color: rgb(255, 0, 0);
  }
    
     .home .home-slider .slide{
@@ -197,7 +197,7 @@ header .icons a{
     }
 
     .content span{
-        color: darkorange;
+        color: rgb(255, 0, 0);
         font-size: 2.5rem;
     }
     .content h3{
@@ -308,13 +308,13 @@ header .icons a{
      }
      .dishes .box-container .box .fa-eye:hover{
        color: #fff;
-       background: darkorange;
+       background: rgb(255, 0, 0);
 
     }
 
      .box-container .fa-heart:hover{
         color: #fff;
-        background: darkorange;
+        background: rgb(255, 60, 0);
  
      }
     .box img{
@@ -333,7 +333,7 @@ header .icons a{
      }
      .sub-heading{
          font-size: 5rem;
-         border-bottom: 2px solid darkorange;
+         border-bottom: 2px solid rgb(255, 0, 0);
      }
      .dishes .box-container .starts{
        padding: 1rem 0;
@@ -341,11 +341,11 @@ header .icons a{
     }
     .box .starts i{
        font-size: 1.7rem;
-       color: darkorange;
+       color: rgb(255, 0, 0);
          
      }
       .box span{
-         color: darkorange;
+         color: rgb(255, 0, 0);
          font-weight: bolder;
          margin-right: 3rem;
          font-size: 2.5rem;
@@ -365,7 +365,7 @@ header .icons a{
         background-color: rgb(141, 141, 141);
      }
      button{
-         background-color: rgb(253, 51, 0);
+         background-color: rgb(253, 0, 0);
          padding: 1rem;
          padding-top: .7rem;
          padding-bottom: .7rem;
@@ -385,10 +385,10 @@ header .icons a{
        align-items: center;
      }
      .icons span{
-         color: rgb(255, 103, 2);
+         color: rgb(255, 2, 2);
          font-size: 5rem;
          padding-top: 1rem;
-         border-bottom: 2px solid rgb(255, 103, 2);
+         border-bottom: 2px solid rgb(255, 2, 2);
          font-family:  "Brush Script MT";
          
      }
@@ -398,7 +398,7 @@ header .icons a{
         font-family: "Brush Script MT";
      }
      .home .span{
-         color: rgb(255, 99, 43);
+         color: rgb(255, 43, 43);
          font-size: 4rem;
          padding-top: -1rem;
      }
@@ -445,7 +445,7 @@ header .icons a{
         border-radius: 50%;
         line-height: 5rem;
         font-size: 2rem;
-        color: rgb(247, 140, 0);
+        color: rgb(247, 0, 0);
         border-radius: 2rem;
     }
     
@@ -471,7 +471,7 @@ header .icons a{
    .footer span:hover{
       
     
-       color: rgb(255, 68, 0);
+       color: rgb(255, 0, 0);
    } 
    
  
@@ -496,7 +496,7 @@ header .icons a{
        border-radius: 1rem;
       
    } .slide1 .span1:hover{
-       background-color: rgb(255, 106, 0);
+       background-color: rgb(255, 0, 0);
    }
 
    .ler{
@@ -518,7 +518,7 @@ header .icons a{
    .slide1 .icons-1{
        display: flex;
        font-size: 4rem;
-       color: rgb(255, 115, 0);
+       color: rgb(255, 0, 0);
        justify-content: space-between;
        width: 70%;
    }
@@ -546,14 +546,14 @@ header .icons a{
     color: rgb(0, 0, 0);
 }
 #menu .box{
-    border: 2px solid rgb(235, 90, 6);
+    border: 2px solid rgb(235, 6, 6);
 }
 .box br{
     display: none;
 }
  .slide1 a{
     text-decoration: none;
-    color: darkorange;
+    color: rgb(255, 0, 0);
 }
 .footer a{
     text-decoration: none;
@@ -568,7 +568,7 @@ header .icons a{
 
 .dish1{
     padding-right: 2rem;
-    border-left: 2px solid rgb(255, 72, 0);
+    border-left: 2px solid rgb(255, 0, 0);
     border-top-left-radius: 1rem;
     padding-right: 1rem;
     border-bottom-left-radius: 1rem;
