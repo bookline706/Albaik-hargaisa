@@ -110,6 +110,7 @@ header .icons a{
    {
        color: #fff;
        background-color: rgb(255, 0, 0);
+      
    }
    .icons a:hover
    {
@@ -173,7 +174,7 @@ header .icons a{
         align-items: center;
         flex-wrap: wrap;
         gap: 2rem;
-        padding-top: 9rem;
+        padding-top: 2rem;
         padding-left: 2rem;
         padding-right: 2rem;
     }
@@ -233,18 +234,25 @@ header .icons a{
        .box-container{
          width: 100%;
      }
+     .fa{
+         background-color: #ffff;
+         padding: 1rem;
+         border-radius: 50%;
+         font-size: 2rem;
+     }
      .box{
         padding: 2.5rem;
-        background: #fff;
+        background: red;
         border-radius: .5rem; 
         position: relative;
         overflow: hidden;
         text-align: center;
+        margin-top: .5rem;
       
     }
     .box-1{
         padding: 2.5rem;
-        background: #fff;
+        background:red;
         border-radius: .5rem;
         position: relative;
         overflow: hidden;
@@ -252,7 +260,7 @@ header .icons a{
        
     }
     #menu{
-        background-color: rgb(129, 129, 129);
+        background-color: rgb(255, 255, 255);
     }
       .menu{
           padding: 2rem;
@@ -320,6 +328,7 @@ header .icons a{
     .box img{
          height: 17rem;
          margin: 1rem 0;
+         width: 60%;
      }
       .box h3{
          color: black;
@@ -345,7 +354,7 @@ header .icons a{
          
      }
       .box span{
-         color: rgb(255, 0, 0);
+         color: rgb(255, 255, 255);
          font-weight: bolder;
          margin-right: 3rem;
          font-size: 2.5rem;
@@ -354,7 +363,7 @@ header .icons a{
          width: 100%;
      }
      .price{
-         color: black;
+         color: rgb(255, 255, 255);
      }
      .dishes{
          padding: 2rem;
@@ -362,7 +371,7 @@ header .icons a{
          
      }
      #dishes{
-        background-color: rgb(141, 141, 141);
+        background-color: rgb(255, 255, 255);
      }
      button{
          background-color: rgb(253, 0, 0);
@@ -465,19 +474,40 @@ header .icons a{
     }
 
    #footer{
-       background-color: rgb(255, 255, 255);
+       background-color: red;
    }
    .footer h3,
    .footer span:hover{
       
     
-       color: rgb(255, 0, 0);
+       color: rgb(255, 255, 255);
    } 
-   
- 
+   .lamber img {
+       display: flex;
+       justify-content: space-between;
+       width: 100%;
+   }
+   .lamber{
+       display: flex;
+       justify-content: space-between;
+   }
+   .lamber span, .lamber i, .lamber a{
+       color: red;
+       font-size: 2rem;
+       text-decoration: none;
+      
+     
+   }
+   .bb{
+       display: block;
+       justify-content: space-between;
+   }
    .footer span{
     font-size: 1rem;
+    
+  
    }
+
  
    .break h3{
        color: black;
@@ -781,12 +811,27 @@ header .icons a{
         .content h3{
             font-size: 2.5rem;
         }
+        .lamber span, .lamber i, .lamber a{
+            color: red;
+            font-size: 1.5rem;
+            text-decoration: none;
+           
+          
+        }
     }
     @media (max-width:450px)
     {
         html{
             font-size: 50%; 
         }
+        .lamber span, .lamber i, .lamber a{
+            color: red;
+            font-size: 1.2rem;
+            text-decoration: none;
+           
+          
+        }
+       
         .dishes .box-container .box img{
             height: auto;
            width: 100%;
