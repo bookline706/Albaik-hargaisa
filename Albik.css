@@ -261,6 +261,7 @@ header .icons a{
     }
     #menu{
         background-color: rgb(255, 255, 255);
+        border: 2px solid red;
     }
       .menu{
           padding: 2rem;
@@ -372,6 +373,7 @@ header .icons a{
      }
      #dishes{
         background-color: rgb(255, 255, 255);
+        border: 2px solid red;
      }
      button{
          background-color: rgb(253, 0, 0);
