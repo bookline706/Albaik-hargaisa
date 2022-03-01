@@ -99,17 +99,17 @@ header .icons a{
     width: 4.5rem;
     text-align: center;
     font-size: 1.7rem;
-    color: #fff;
+    color: rgb(255, 0, 0);
     border-radius: 50%;
     background: #eee;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
 
 }
   
    .icons i:hover
    {
        color: #fff;
-       background-color: rgb(255, 0, 0);
+      
       
    }
    .icons a:hover
@@ -233,6 +233,7 @@ header .icons a{
      
        .box-container{
          width: 100%;
+         background-color: rgb(247, 29, 29);
      }
      .fa{
          background-color: #ffff;
@@ -248,6 +249,7 @@ header .icons a{
         overflow: hidden;
         text-align: center;
         margin-top: .5rem;
+        border: 1px solid rgb(53, 49, 49);
       
     }
     .box-1{
@@ -329,10 +331,10 @@ header .icons a{
     .box img{
          height: 17rem;
          margin: 1rem 0;
-         width: 60%;
+         
      }
       .box h3{
-         color: black;
+         color: rgb(255, 255, 255);
          font-size: 2.5rem;
 
      }
@@ -495,7 +497,7 @@ header .icons a{
    }
    .lamber span, .lamber i, .lamber a{
        color: red;
-       font-size: 2rem;
+       font-size: 3rem;
        text-decoration: none;
       
      
@@ -815,7 +817,7 @@ header .icons a{
         }
         .lamber span, .lamber i, .lamber a{
             color: red;
-            font-size: 1.5rem;
+            font-size: 1.7rem;
             text-decoration: none;
            
           
