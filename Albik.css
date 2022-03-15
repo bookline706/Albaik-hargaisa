@@ -251,7 +251,8 @@ header .icons a{
         margin-top: .5rem;
         border: 1px solid rgb(53, 49, 49);
       
-    } .box p{
+    }
+    .box-container .box p{
         color: #ffff;
     }
     .box-1{
