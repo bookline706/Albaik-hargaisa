@@ -311,7 +311,7 @@ header .icons a{
      .dishes .box-container .box .fa-heart{
          left:-15rem
      }
-     .dishes h4{
+     #dishes h4{
          text-align: center;
          justify-content: center;
          font-size: 3rem;
