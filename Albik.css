@@ -311,6 +311,11 @@ header .icons a{
      .dishes .box-container .box .fa-heart{
          left:-15rem
      }
+     .dishes h4{
+         text-align: center;
+         justify-content: center;
+         font-size: 3rem;
+     }
      .dishes .box-container .box:hover .fa-eye{
         right: 1.5rem;
 
